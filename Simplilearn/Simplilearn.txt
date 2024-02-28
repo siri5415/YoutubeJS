@@ -1,0 +1,238 @@
+What is the Javascript?
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Javascript is a lightweight,object-oriented programming language.
+
+It is open and cross-platfor m.
+
+It is designed for creating dynamic web application.
+
+
+Why  Javascript?
+~~~~~~~~~~~~~~~~~
+Javascript is the most popular programming language and the community support is huge.
+
+Javascript usage has extended to moblie app development,desktop app development and game development.
+
+Due to high demand,there is tons of job growth and high pay for those who know Javascript.
+
+
+What is an Array?
+~~~~~~~~~~~~~~~~~~
+Array is an object that lets you store multiple values in a single variables.
+
+Length of a Javascript array and the types of its elements are not fixed.
+
+Array can only use integers as element indexes.
+
+what is the loop?
+~~~~~~~~~~~~~~~~~
+A loop is a programming construct that executes a piece of code as long as certain condition is met.
+
+***********Loops:
+           ~~~~~
+1.Entry controlled.
+2.Exit controlled.
+
+
+For loop:
+~~~~~~~
+1.Start (or)       increased by 1
+2.for n= 0 to 9    (0<n<10)
+3.end
+
+
+While Loops:
+~~~~~~~~~~~~
+Start
+while(condition) true
+
+Do-while loop:
+~~~~~~~~~~~~~~~
+Start
+execute code 
+while(condition)
+end
+
+
+//Break out of loop:
+// ~~~~~~~~~~~~~~~~~~~~
+// Break is used to break out of a loop.
+syntax:
+~~~~~~
+for(i=1;i<=10;i++);
+{
+    console.log("The result of the :" + i);
+    if(i==5){
+        break;
+    }
+}
+
+
+//Skipping a loop cycle:
+// ~~~~~~~~~~~~~~~~~~~~~~~~
+// To skip a particular loop,continue is used
+Syntax:
+~~~~~~~~
+for(i=1;i<=10;i++){
+    if(i==3){
+        continue;
+    }
+    console.log("The result of the :" + i);
+}
+
+
+What in it for you?
+
+what are Javascript functions?
+functions expressions
+functions() constructors
+self-invoking functions
+functions as values
+functions as objects
+Arrow functions
+Generator functions
+predefined functions
+
+
+What are Javascript functions?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A functions is a group of reusable code which can be called anywhere in your program.
+
+The eliminates the need of writing the same code again and again.
+
+It helps programmers write modular codes.
+Syntax:
+~~~~~~~
+<script type ="text/Javascript">
+function function_name(paramate_list){
+    function_body
+}
+</script>
+
+function expression:
+~~~~~~~~~~~~~~~~~~~~
+A Javascript function can also be defined using an expression.
+A function expression can be stored in a variable:
+Syntax:
+~~~~~~
+<script type = "text/Javascript">
+var x = function(a,b)
+{return a * b}
+</script>
+
+
+//The function Constructors:
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Javascript function are defined using the keyword function.
+
+//Function can also be defined using the bulit-in javascript function constructor called Function().
+Syntax:
+~~~~~~~
+<script type = "text/Javascript">
+    var myfunction = new function("a","b","return a + b");
+    var x = myfunction(4,3)
+</script>
+
+
+//self-invoking Functions:
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~
+// A self-invoking expression is invoked (started) automatically.without being called self-invoked.
+
+// Function expressions will execute automatically if the expression is followed ByteLengthQueuingStrategy().
+
+// you have to add parentheses around the function to indicate that it is a function expression.
+Syntax:
+~~~~~~~~
+<script>
+(function (){
+    function_body //I will invoke myself
+})();
+</script>
+
+
+//Function as values:
+~~~~~~~~~~~~~~~~~~~~~~
+In Javascript, a function is a value,so we can deal with it as a value.
+
+We first define the function and then assign it to a variable unlike in expressions.
+Syntax:
+~~~~~~~
+<script>
+function function_name(paramate_list){
+    function_body //I will invoke myself
+}
+let x = function_name
+</script>
+
+
+//Function as objects:
+~~~~~~~~~~~~~~~~~~~~~~
+Javascript function are a special type of objects,called function objects.
+
+A function object includes a string which holds the actual code i.e., the function body of the function.
+Syntax:
+~~~~~~~
+<script>
+var body = "function_body";
+var function_name = new Function("Parameter_list",body);
+alert(function_name(argument_value));
+</script>
+
+
+//Arrow Functions:
+~~~~~~~~~~~~~~~~~~~
+function can be written more compactly with the helps of Arrow function.
+
+Arrow function expressions are ill suited as methods,and they cannot be used as constructors.
+syntax:
+~~~~~~~~
+<script>
+let func = (arg1,arg2, ...argN) => expression
+</script>
+
+The above code can be re-written like this:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<script>
+let func = function(arg1,arg2, ...argN){
+    return expression;
+}
+</script>
+
+
+
+Generator Function:
+~~~~~~~~~~~~~~~~~~~
+Regular functions return only one, single value (or nothing)
+
+Generator can return ("Yield") multiple values,one after another,on-demand.
+
+To create a generator,we use the syntax:function*
+<script>
+function* generateSequence(){
+    Yield 1;
+    Yield 2;
+    Yield 3;
+}
+</script>
+
+next() return two properties:
+  value : The Yielded value
+  done  : true if the function code is finished,false of otherwise.
+
+
+  //Predefined Functions():
+// ~~~~~~~~~~~~~~~~~~~~~~~~~
+// eval: Evaluates a string and returns a value
+// ~~~~~
+
+//parseInt: Parses a string argument and return an integer of the specified radix or base.
+// ~~~~~~~~~~~
+
+//ParseFloat: Parses a string arguments and returns a floating-pointer number.
+// ~~~~~~~~~~~~~~
+ 
+//Escape: Return the hexadecimal encoding of an arguments
+// ~~~~~~~~~
+
+//Unescape: Return the ASCII string for the specified values.
+// ~~~~~~~~~~~~

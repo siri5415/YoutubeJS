@@ -1,0 +1,61 @@
+What we'll Learn:
+~~~~~~~~~~~~~~~~~
+
+Basic javascript & when we use it.
+Working with data types (integers,strings etc)
+control flow (loops and conditional statements)
+The Document object model(DOM)
+Example of javascript on web pages
+
+
+
+What is javascript?
+~~~~~~~~~~~~~~~~~~
+One of Three core languages
+
+HTML: Controls the  structure of your web pages
+~~~~
+
+CSS: Controls the presentation/design.
+~~~
+
+javascript: Adds behaviour and interactivity.
+~~~~~~~~~~~
+
+javascript is a scripting language:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Intentionally limited.
+
+Doesn't have the same features as other programming languages(C++ JAVA)
+
+Cannot communicate directly with a database, or file system an a computer.
+
+However it is great at manuplating web pages.
+
+javascript is a client side language:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Client/Browser:        Server:
+~~~~~~~~~~~~~~~        ~~~~~~~
+HTML                  Ruby on Ralls
+CSS                   PHP
+javascript            ASP.NET
+
+
+
+variable names:
+~~~~~~~~~~~~~~~
+can have characters.
+can have numbers except first position
+can have special symbols $ and _
+
+
+
+variables they are 3 types:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+const :  The value Cannot be changed.
+
+let : The value can ba changed.
+
+var : The value can be changed.(Not recommened)
+~~~ 

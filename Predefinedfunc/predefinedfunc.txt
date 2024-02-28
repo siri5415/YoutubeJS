@@ -1,0 +1,16 @@
+//Predefined Functions():
+// ~~~~~~~~~~~~~~~~~~~~~~~~~
+// eval: Evaluates a string and returns a value
+// ~~~~~
+
+//parseInt: Parses a string argument and return an integer of the specified radix or base.
+// ~~~~~~~~~~~
+
+//ParseFloat: Parses a string arguments and returns a floating-pointer number.
+// ~~~~~~~~~~~~~~
+ 
+//Escape: Return the hexadecimal encoding of an arguments
+// ~~~~~~~~~
+
+//Unescape: Return the ASCII string for the specified values.
+// ~~~~~~~~~~~~

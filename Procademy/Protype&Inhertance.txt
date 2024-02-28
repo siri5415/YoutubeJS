@@ -1,0 +1,14 @@
+** Inhertance is when one object is based on another object.
+
+** when one object gets access to the properties and method of amother object.
+
+
+What is the prototype?
+~~~~~~~~~~~~~~~~~~~~~~
+** Each and every javascript object has a prototype property.
+
+** Inheritance in javascript s achived using this prototype.
+
+** when we attach a property or a method to the prototype property of that object,those properties and methods can be inherited by the instantiated object.
+
+ 

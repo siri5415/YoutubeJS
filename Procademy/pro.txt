@@ -1,0 +1,139 @@
+what is the object-oriented programming?
+
+How object-oriented programming works in general?
+
+what are the foue pillars of object-oriented programming?
+
+object-oriented programming?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+object-oriented programming is programming paradigm based on the concept of objects.
+
+In object-oriented programming,we represent real-world entities as an object.
+
+Ex:
+~~~~
+let user = {
+    name : 'Siri',
+    role : 'admin',
+    access : 'read-write',
+
+    adduser(){
+        //Logic to add user
+    },
+    removeuser(){
+        //Logic to remove user
+    }
+}
+
+
+what is the data?
+~~~~~~~~~~~~~~~~~~
+The properties of an object are called as data.
+
+
+What is the behaiour?
+~~~~~~~~~~~~~~~~~~~~~
+The methods of an objects are called as behaiour.
+
+
+How object-oriented programming works in general?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+let siri = {                               |    
+    name : 'siri',                         |
+    birth year : 2000,                     |
+    gender : Female,                       |
+                                           |
+    calculateAge(){                        |
+        return 2001 - this birthyear;      |
+    }
+}
+let nava = {
+    name : 'nava',                         |
+    birth year : 2002,                     |
+    gender : Female,                       |
+                                           |
+    calculateAge(){                        |
+        return 2003 - this birthyear;      |
+    }
+}
+
+
+
+let lakshmi = {                            |     
+    name : 'lakshmi',                      |
+    birth year : 2003,                     |
+    gender : Female,                       |
+                                           |
+    calculateAge(){                        |
+        return 2004 - this birthyear;      |
+    }
+}
+
+
+
+pillars of object-oriented programming?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(1)Inhertence
+(2)Encapsulation
+(3)Abstraction
+(4)Polymorphism
+
+Inhertence:
+~~~~~~~~~~~
+Inhertence is a  mechanism that allows us to create new classes based on an existing class.
+
+person :  name : Sirisha, birth year : 14-02-2000, gender : Female , calculateAge()
+~~~~~~~
+
+Employee : EmployeeId :12345, salary : 10000, company : TCS , calculateSalary()
+~~~~~~~~~~
+
+Encapsulation:
+~~~~~~~~~~~~~~
+Encapsulation is the process of hiding data from outside world.
+
+Employee : EmployeeId :12345, salary : 10000, company : TCS , calculateSalary()
+~~~~~~~~~~
+
+Abstraction:
+~~~~~~~~~~~~
+* Abstraction is a way of hiding the implementation details and showing only the functionality to the user.
+
+* In other words, it ignores the irrelevant detalis and shows only the required one.
+
+
+Employee : name : 'siri', salary : 10000 , getsalary ();
+~~~~~~~~~~~
+
+
+permanent Employee :
+~~~~~~~~~~~~~~~~~~~~
+monthlySalary
+getsalary(){
+    return 12 *
+monthlySalary
+}
+
+
+part-time Employee :
+~~~~~~~~~~~~~~~~~~~~~
+HourlySalary
+getsalary(){
+    return 12 *
+HourlySalary
+}
+
+
+Polymorphism:
+~~~~~~~~~~~~~~~
+Polymorphism means different froms. In object-oriented programming,we can write methods with same name but different implementation.
+
+addNumbers(x,y){
+    return x + y;
+}
+addNumbers(x,y,z){
+    return x + y + z;
+}
+addNumbers(10,20); //return 30
+addNumbers(10,20,30); //return 60

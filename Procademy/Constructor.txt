@@ -1,0 +1,52 @@
+Constructor Function:
+~~~~~~~~~~~~~~~~~~~~~
+Constructor Function is a pattern in javascript based on which we can create several objects.
+
+* In simple terms, a Constructor Function is simply a Function which acts as a pattern or a template for creating objects.
+
+* With Constructor Function, we can instantiate objects and implement inheritance.
+
+* To define a Constructor Function, a Function is used.it can be a normal Function or Function expression.
+
+let siri = {
+    name : 'siri',
+    birthyear: 2000
+    gender : 'female'
+
+    calculateAge(){
+        return 2001 - this birthyear;
+    }
+}
+
+
+let saida = {
+    name : 'saida',
+    birthyear: 2002
+    gender : 'female'
+
+    calculateAge(){
+        return 2003 - this birthyear;
+    }
+}
+
+
+
+let nava = {
+    name : 'nava',
+    birthyear: 2004
+    gender : 'female'
+
+    calculateAge(){
+        return 2005 - this birthyear;
+    }
+}
+
+
+
+The new Opereator:
+~~~~~~~~~~~~~~~~~~
+A new Opereator does three this while creating an objects using Function Constructor.
+
+The new Opereator first creates an empty objects on Function Constructor.
+
+It also makes sure that the 'this' variables in Function Constructor point to the newly created empty object.
